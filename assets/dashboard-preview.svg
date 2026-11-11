@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<defs><style>
+.bg{fill:#f3f6fa}.panel{fill:#fff;stroke:#e4eaf1;stroke-width:1}.navy{fill:#214f78}.teal{fill:#08a6a6}.orange{fill:#f28c18}.muted{fill:#657386}.title{font:700 34px Arial,sans-serif;fill:#214f78}.sub{font:16px Arial,sans-serif;fill:#657386}.klabel{font:700 13px Arial,sans-serif;fill:#647286;letter-spacing:.5px}.kvalue{font:700 30px Arial,sans-serif;fill:#214f78}.ctitle{font:700 19px Arial,sans-serif;fill:#214f78}.axis{font:12px Arial,sans-serif;fill:#586575}.small{font:13px Arial,sans-serif;fill:#586575}
+</style></defs>
+<rect class="bg" width="1600" height="960"/>
+<text x="64" y="65" class="title">USED CARS MARKET OVERVIEW</text>
+<text x="64" y="96" class="sub">Executive dashboard concept  |  2,059 vehicle listings</text>
+<g transform="translate(64 130)">
+<rect class="panel" width="350" height="150" rx="7"/><text x="22" y="42" class="klabel">TOTAL LISTINGS</text><text x="22" y="105" class="kvalue">2,059</text>
+<rect class="panel" x="370" width="350" height="150" rx="7"/><text x="392" y="42" class="klabel">AVERAGE ASKING PRICE</text><text x="392" y="105" class="kvalue">₹17.03 L</text>
+<rect class="panel" x="740" width="350" height="150" rx="7"/><text x="762" y="42" class="klabel">MEDIAN ASKING PRICE</text><text x="762" y="105" class="kvalue">₹8.25 L</text>
+<rect class="panel" x="1110" width="350" height="150" rx="7"/><text x="1132" y="42" class="klabel">AVERAGE MILEAGE</text><text x="1132" y="105" class="kvalue">54,225 km</text>
+</g>
+<g transform="translate(64 320)">
+<rect class="panel" width="690" height="270" rx="7"/><text x="22" y="34" class="ctitle">Top 10 makes by listings</text>
+<g class="small"><text x="22" y="77">Maruti Suzuki</text><text x="22" y="102">Hyundai</text><text x="22" y="127">Mercedes-Benz</text><text x="22" y="152">Honda</text><text x="22" y="177">Toyota</text><text x="22" y="202">Audi</text><text x="22" y="227">BMW</text><text x="22" y="252">Mahindra</text></g>
+<g><rect x="155" y="59" width="460" height="15" rx="2" class="navy"/><rect x="155" y="84" width="365" height="15" rx="2" class="navy"/><rect x="155" y="109" width="170" height="15" rx="2" class="navy"/><rect x="155" y="134" width="156" height="15" rx="2" class="navy"/><rect x="155" y="159" width="130" height="15" rx="2" class="navy"/><rect x="155" y="184" width="124" height="15" rx="2" class="navy"/><rect x="155" y="209" width="117" height="15" rx="2" class="navy"/><rect x="155" y="234" width="115" height="15" rx="2" class="navy"/></g>
+<rect class="panel" x="710" width="365" height="270" rx="7"/><text x="732" y="34" class="ctitle">Fuel type mix</text><circle cx="892" cy="157" r="70" fill="none" stroke="#f28c18" stroke-width="34"/><circle cx="892" cy="157" r="70" fill="none" stroke="#287fb8" stroke-width="34" stroke-dasharray="224 440" transform="rotate(-90 892 157)"/><text x="795" y="250" class="small">Diesel  1,049</text><text x="918" y="250" class="small">Petrol  942</text>
+<rect class="panel" x="1095" width="365" height="270" rx="7"/><text x="1117" y="34" class="ctitle">Transmission mix</text><circle cx="1277" cy="157" r="70" fill="none" stroke="#f28c18" stroke-width="34"/><circle cx="1277" cy="157" r="70" fill="none" stroke="#287fb8" stroke-width="34" stroke-dasharray="242 440" transform="rotate(-90 1277 157)"/><text x="1172" y="250" class="small">Manual  1,133</text><text x="1300" y="250" class="small">Automatic  926</text>
+</g>
+<g transform="translate(64 615)">
+<rect class="panel" width="690" height="280" rx="7"/><text x="22" y="35" class="ctitle">Top 10 cities by listings</text>
+<g class="small"><text x="22" y="78">Mumbai</text><text x="22" y="103">Delhi</text><text x="22" y="128">Pune</text><text x="22" y="153">Bangalore</text><text x="22" y="178">Hyderabad</text><text x="22" y="203">Lucknow</text><text x="22" y="228">Ahmedabad</text><text x="22" y="253">Chennai</text></g>
+<g><rect x="120" y="60" width="500" height="15" rx="2" class="teal"/><rect x="120" y="85" width="450" height="15" rx="2" class="teal"/><rect x="120" y="110" width="210" height="15" rx="2" class="teal"/><rect x="120" y="135" width="190" height="15" rx="2" class="teal"/><rect x="120" y="160" width="165" height="15" rx="2" class="teal"/><rect x="120" y="185" width="110" height="15" rx="2" class="teal"/><rect x="120" y="210" width="100" height="15" rx="2" class="teal"/><rect x="120" y="235" width="90" height="15" rx="2" class="teal"/></g>
+<rect class="panel" x="710" width="750" height="280" rx="7"/><text x="732" y="35" class="ctitle">Asking price vs kilometres driven (sample)</text>
+<g stroke="#e6ebf1" stroke-width="1"><path d="M770 75H1425M770 125H1425M770 175H1425M770 225H1425"/><path d="M770 65V245M900 65V245M1030 65V245M1160 65V245M1290 65V245M1425 65V245"/></g>
+<g fill="#287fb8" opacity=".55"><circle cx="810" cy="195" r="5"/><circle cx="820" cy="180" r="5"/><circle cx="830" cy="210" r="4"/><circle cx="840" cy="160" r="5"/><circle cx="850" cy="220" r="4"/><circle cx="860" cy="188" r="5"/><circle cx="875" cy="205" r="4"/><circle cx="890" cy="230" r="4"/><circle cx="905" cy="172" r="5"/><circle cx="920" cy="216" r="4"/><circle cx="940" cy="190" r="5"/><circle cx="960" cy="230" r="4"/><circle cx="980" cy="145" r="5"/><circle cx="1010" cy="215" r="4"/><circle cx="1050" cy="200" r="5"/><circle cx="1100" cy="230" r="4"/><circle cx="1160" cy="185" r="5"/><circle cx="1230" cy="220" r="4"/><circle cx="1360" cy="235" r="5"/></g>
+<text x="1050" y="270" class="axis">Kilometres driven</text><text x="735" y="155" class="axis" transform="rotate(-90 735 155)">Asking price (₹ lakh)</text>
+</g>
+<text x="64" y="930" class="small">Concept preview for portfolio presentation · Listing prices are advertised prices, not confirmed sale prices</text>
+</svg>
