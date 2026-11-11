@@ -1,0 +1,68 @@
+-- Create a table named 'Cars' by importing used_cars_powerbi.csv.
+-- Measures: Modeling > New measure. Currency assumed INR based on Indian city names/data.
+Total Listings =
+COUNTROWS ( Cars )
+
+Total Brands =
+DISTINCTCOUNT ( Cars[Make] )
+
+Total Models =
+DISTINCTCOUNT ( Cars[Model] )
+
+Average Asking Price =
+AVERAGE ( Cars[Price] )
+
+Median Asking Price =
+MEDIAN ( Cars[Price] )
+
+Minimum Asking Price =
+MIN ( Cars[Price] )
+
+Maximum Asking Price =
+MAX ( Cars[Price] )
+
+Average Mileage (KM) =
+AVERAGE ( Cars[Kilometer] )
+
+Average Vehicle Age (Years) =
+AVERAGEX ( Cars, YEAR ( TODAY() ) - Cars[Year] )
+
+First Owner Listings =
+CALCULATE ( [Total Listings], Cars[Owner] = "First" )
+
+Automatic Listings =
+CALCULATE ( [Total Listings], Cars[Transmission] = "Automatic" )
+
+Automatic Share % =
+DIVIDE ( [Automatic Listings], [Total Listings], 0 )
+
+Diesel Listings =
+CALCULATE ( [Total Listings], Cars[Fuel Type] = "Diesel" )
+
+Diesel Share % =
+DIVIDE ( [Diesel Listings], [Total Listings], 0 )
+
+Listings by Brand =
+[Total Listings]
+
+Average Price (Lakhs) =
+DIVIDE ( [Average Asking Price], 100000 )
+
+Average Price - Selected Brand =
+AVERAGE ( Cars[Price] )
+
+Listings Previous Year =
+VAR SelectedYear = MAX ( Cars[Year] )
+RETURN
+    CALCULATE (
+        [Total Listings],
+        FILTER ( ALL ( Cars[Year] ), Cars[Year] = SelectedYear - 1 )
+    )
+
+Listing Count by City =
+[Total Listings]
+
+-- Optional calculated column (Modeling > New column), if you prefer not to use
+-- the precomputed helper column:
+Vehicle Age =
+YEAR ( TODAY() ) - Cars[Year]
