@@ -1,0 +1,15 @@
+{
+  "name": "Used Cars Executive",
+  "dataColors": ["#1F4E79", "#00A6A6", "#F2A900", "#5B6573", "#8AA6A3", "#D96C4A", "#6B75A5"],
+  "background": "#F4F6F9",
+  "foreground": "#243447",
+  "tableAccent": "#1F4E79",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{"color": {"solid": {"color": "#1F4E79"}}, "fontSize": 12, "fontFamily": "Aptos"}],
+        "background": [{"color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}]
+      }
+    }
+  }
+}
