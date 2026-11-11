@@ -68,6 +68,12 @@ Mumbai has the highest listing count, at approximately **342**, followed by Delh
 
 The average is substantially higher than the median. This suggests that a smaller number of high-priced listings may be pulling the average upward. The median is therefore useful alongside the average when describing a typical listing price.
 
+## Dashboard Design Preview
+
+The following image is a static design concept showing the proposed executive dashboard layout and example visuals. It is a design preview, not a screenshot of a completed interactive Power BI report.
+
+![Used Cars Market Overview dashboard design preview](assets/dashboard-preview.svg)
+
 ## Dashboard Plan
 
 The Power BI report is designed to include:
@@ -105,7 +111,10 @@ Power BI provides a practical way to combine these measures and dimensions into 
 
 ## Repository Structure
 
-The repository includes the Power BI setup guide, DAX measures and report theme under the powerbi/ folder. The prepared CSV dataset and dashboard preview are available in the downloadable starter pack linked below in this project handoff; they have not been committed to GitHub yet. Add the CSV only if you have the right to redistribute the source data.
+- `assets/dashboard-preview.svg` – static dashboard design preview embedded above
+- `powerbi/` – Power BI setup guide, DAX measures and report theme
+
+The prepared CSV dataset is available in the downloadable starter pack but has not been committed to GitHub. Add the source CSV only if you have the right to redistribute it.
 
 ## Author
 
